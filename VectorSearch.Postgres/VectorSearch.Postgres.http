@@ -1,0 +1,13 @@
+@VectorSearch.Postgres_HostAddress = http://localhost:5221
+
+GET {{VectorSearch.Postgres_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
+###
+POST http://localhost:5221/CalculateVectors/
+Accept: application/json
+
+###
+Get http://localhost:5221/GetByDescription?description=
+Accept: application/json

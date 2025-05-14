@@ -1,0 +1,1 @@
+docker run --name pgvector -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=Qw123321@  -e POSTGRES_DB=postgres  -p 5433:5432 -d ankane/pgvector
